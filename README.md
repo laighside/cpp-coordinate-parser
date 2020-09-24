@@ -4,7 +4,7 @@ Geographical coordinate parser in C++
 A C++ port of the coordinate parser written by [otto-dev](https://github.com/otto-dev/coordinate-parser)
 
 ### Usage
-'''cpp
+```cpp
 #include "coordinate_parser.h"
 
 ...
@@ -21,4 +21,4 @@ try {
 }
 
 std::cout << "Latitude: " << lat << ", Longitude: " << lon << "\n";
-'''
+```
